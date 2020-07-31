@@ -12,5 +12,26 @@
     
 "items": [
     
+        {
+            "id": "http://localhost:4000/2020/07/30/hello-world",
+            "title": "Hello world!",
+            "summary": null,
+            "content_text": "Hello world!",
+            "content_html": "<p>Hello world!</p>",
+            "url": "http://localhost:4000/2020/07/30/hello-world",
+            
+            
+            
+            
+            
+            "date_published": "2020-07-30T00:00:00-06:00",
+            "date_modified": "2020-07-30T00:00:00-06:00",
+            
+                "author": 
+                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                
+            
+        }
+    
     ]
 }
