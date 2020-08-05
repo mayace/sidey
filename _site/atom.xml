@@ -4,13 +4,28 @@
  <title>Yo2020</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2020-07-30T21:53:32-06:00</updated>
+ <updated>2020-08-05T16:40:22-06:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Full microsoft</title>
+   <link href="http://localhost:4000/2020/08/05/todo-microsoft"/>
+   <updated>2020-08-05T00:00:00-06:00</updated>
+   <id>http://localhost:4000/2020/08/05/todo-microsoft</id>
+   <content type="html">&lt;p&gt;Empezando un nuevo proyecto poniendo enfacis en la forma de diseñar, para en nuestro equipo utilizaremos tecnologías microsoft.&lt;/p&gt;
+
+&lt;p&gt;Al tener las herramientas centralazdas, el siguiemiento sera mas optimo, con esto ganamos horas extras para ser utilizados en el desarrollo de proyecto.&lt;/p&gt;
+
+&lt;p&gt;Hemos decido que para la comunicación usaremos https://teams.microsoft.com/&lt;/p&gt;
+
+&lt;p&gt;De entra puedo decir que estoy de cierta manera emocionado para explorar las herramientas que microsoft ofrece para equipos,  en el  desarrollo de proyectos.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Hello world!</title>

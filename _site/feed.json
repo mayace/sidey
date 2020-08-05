@@ -13,6 +13,27 @@
 "items": [
     
         {
+            "id": "http://localhost:4000/2020/08/05/todo-microsoft",
+            "title": "Full microsoft",
+            "summary": null,
+            "content_text": "Empezando un nuevo proyecto poniendo enfacis en la forma de diseñar, para en nuestro equipo utilizaremos tecnologías microsoft.Al tener las herramientas centralazdas, el siguiemiento sera mas optimo, con esto ganamos horas extras para ser utilizados en el desarrollo de proyecto.Hemos decido que para la comunicación usaremos https://teams.microsoft.com/De entra puedo decir que estoy de cierta manera emocionado para explorar las herramientas que microsoft ofrece para equipos,  en el  desarrollo de proyectos.",
+            "content_html": "<p>Empezando un nuevo proyecto poniendo enfacis en la forma de diseñar, para en nuestro equipo utilizaremos tecnologías microsoft.</p><p>Al tener las herramientas centralazdas, el siguiemiento sera mas optimo, con esto ganamos horas extras para ser utilizados en el desarrollo de proyecto.</p><p>Hemos decido que para la comunicación usaremos https://teams.microsoft.com/</p><p>De entra puedo decir que estoy de cierta manera emocionado para explorar las herramientas que microsoft ofrece para equipos,  en el  desarrollo de proyectos.</p>",
+            "url": "http://localhost:4000/2020/08/05/todo-microsoft",
+            
+            
+            
+            
+            
+            "date_published": "2020-08-05T00:00:00-06:00",
+            "date_modified": "2020-08-05T00:00:00-06:00",
+            
+                "author": 
+                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                
+            
+        },
+    
+        {
             "id": "http://localhost:4000/2020/07/30/hello-world",
             "title": "Hello world!",
             "summary": null,
