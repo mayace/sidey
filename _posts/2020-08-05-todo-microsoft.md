@@ -2,6 +2,7 @@
 layout :  post
 title :  "Full microsoft"
 tags: proyecto1
+comments: true
 ---
 Empezando un nuevo proyecto poniendo enfacis en la forma de diseñar, para en nuestro equipo utilizaremos tecnologías microsoft.
 
