@@ -4,13 +4,35 @@
  <title>Yo2020</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2020-08-05T21:37:41-06:00</updated>
+ <updated>2020-09-03T20:12:47-06:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Seguridad - perspectiva de seguridad</title>
+   <link href="http://localhost:4000/2020/09/03/security-perspective"/>
+   <updated>2020-09-03T00:00:00-06:00</updated>
+   <id>http://localhost:4000/2020/09/03/security-perspective</id>
+   <content type="html">&lt;h1 id=&quot;cualidad&quot;&gt;Cualidad&lt;/h1&gt;
+&lt;p&gt;La habilidad de controlar, monitoria y auditar las acciones que pueden ser ejercidas sobre los recursos del sistema. La habilidad de recuperar despues de un fallo.&lt;/p&gt;
+
+&lt;h1 id=&quot;aplicación&quot;&gt;Aplicación&lt;/h1&gt;
+&lt;p&gt;Todo sistema que expone interfaces de accesos para multiple usuarios, y en las cuales la identidad del usuario es importante.&lt;/p&gt;
+
+&lt;h1 id=&quot;intereses&quot;&gt;Intereses&lt;/h1&gt;
+&lt;p&gt;Politicas, amenazas, mecanismos, disponibilidad , detección y recuperación  de errores.&lt;/p&gt;
+
+&lt;h1 id=&quot;actividades&quot;&gt;Actividades&lt;/h1&gt;
+&lt;p&gt;Intenficaicón de recursos sensibles, definir polizas de seguridad, identificación  de amenazas en el sistema, diseño de la implementación de seguridad, asistir con los riesgos de seguridad&lt;/p&gt;
+
+&lt;h1 id=&quot;arquitecturas&quot;&gt;Arquitecturas&lt;/h1&gt;
+&lt;p&gt;Aplicación principios de seguridad, principios de auntenticidad, autorización de accessos, asegurar información privada, asegurar disponibilidad, integración de tecnologías de seguridad, proveer seguridad adminitrativa, uso de infrastructura de terceros.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Full microsoft</title>

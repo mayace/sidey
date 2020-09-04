@@ -13,6 +13,27 @@
 "items": [
     
         {
+            "id": "http://localhost:4000/2020/09/03/security-perspective",
+            "title": "Seguridad - perspectiva de seguridad",
+            "summary": null,
+            "content_text": "CualidadLa habilidad de controlar, monitoria y auditar las acciones que pueden ser ejercidas sobre los recursos del sistema. La habilidad de recuperar despues de un fallo.AplicaciónTodo sistema que expone interfaces de accesos para multiple usuarios, y en las cuales la identidad del usuario es importante.InteresesPoliticas, amenazas, mecanismos, disponibilidad , detección y recuperación  de errores.ActividadesIntenficaicón de recursos sensibles, definir polizas de seguridad, identificación  de amenazas en el sistema, diseño de la implementación de seguridad, asistir con los riesgos de seguridadArquitecturasAplicación principios de seguridad, principios de auntenticidad, autorización de accessos, asegurar información privada, asegurar disponibilidad, integración de tecnologías de seguridad, proveer seguridad adminitrativa, uso de infrastructura de terceros.",
+            "content_html": "<h1 id=\"cualidad\">Cualidad</h1><p>La habilidad de controlar, monitoria y auditar las acciones que pueden ser ejercidas sobre los recursos del sistema. La habilidad de recuperar despues de un fallo.</p><h1 id=\"aplicación\">Aplicación</h1><p>Todo sistema que expone interfaces de accesos para multiple usuarios, y en las cuales la identidad del usuario es importante.</p><h1 id=\"intereses\">Intereses</h1><p>Politicas, amenazas, mecanismos, disponibilidad , detección y recuperación  de errores.</p><h1 id=\"actividades\">Actividades</h1><p>Intenficaicón de recursos sensibles, definir polizas de seguridad, identificación  de amenazas en el sistema, diseño de la implementación de seguridad, asistir con los riesgos de seguridad</p><h1 id=\"arquitecturas\">Arquitecturas</h1><p>Aplicación principios de seguridad, principios de auntenticidad, autorización de accessos, asegurar información privada, asegurar disponibilidad, integración de tecnologías de seguridad, proveer seguridad adminitrativa, uso de infrastructura de terceros.</p>",
+            "url": "http://localhost:4000/2020/09/03/security-perspective",
+            
+            
+            
+            
+            
+            "date_published": "2020-09-03T00:00:00-06:00",
+            "date_modified": "2020-09-03T00:00:00-06:00",
+            
+                "author": 
+                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                
+            
+        },
+    
+        {
             "id": "http://localhost:4000/2020/08/05/todo-microsoft",
             "title": "Full microsoft",
             "summary": null,
