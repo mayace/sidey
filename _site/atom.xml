@@ -4,13 +4,74 @@
  <title>Yo2020</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2020-09-03T20:12:47-06:00</updated>
+ <updated>2020-10-10T16:11:02-06:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Perspectiva - Rendimiento y escabilidad</title>
+   <link href="http://localhost:4000/2020/10/10/perspective-2"/>
+   <updated>2020-10-10T00:00:00-06:00</updated>
+   <id>http://localhost:4000/2020/10/10/perspective-2</id>
+   <content type="html">&lt;h3 id=&quot;cualidades&quot;&gt;Cualidades&lt;/h3&gt;
+&lt;p&gt;La habilidad de un sistema en predecir y ejecutar operaciones que se encuentre en el marco establecido y el manejo en el crecimiento de las operaciones.&lt;/p&gt;
+
+&lt;h3 id=&quot;aplicabilidad&quot;&gt;Aplicabilidad&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Sistema complejo, requerimientos ambiguos&lt;/li&gt;
+  &lt;li&gt;Arquitecturas con elementos de rendimiento desconocidos.&lt;/li&gt;
+  &lt;li&gt;Expansiones futuras significativas.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;preocupaciones&quot;&gt;Preocupaciones&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Tiempo de respuestas&lt;/li&gt;
+  &lt;li&gt;Requerimientos de recursos de hardware&lt;/li&gt;
+  &lt;li&gt;Comportamientos de picos de carga&lt;/li&gt;
+  &lt;li&gt;Predicciones&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;actividades&quot;&gt;Actividades&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Capturar requerimientos de rendimiento&lt;/li&gt;
+  &lt;li&gt;Creación y análisis de modelos de rendimiento&lt;/li&gt;
+  &lt;li&gt;Realización de pruebas prácticas&lt;/li&gt;
+  &lt;li&gt;Asistencia en la toma requerimiento y creación de la arquitectura.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;estragegias&quot;&gt;Estragegias&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Optimización de procesos repetitivos&lt;/li&gt;
+  &lt;li&gt;Reducción de variación en la replicación&lt;/li&gt;
+  &lt;li&gt;Priorizar procesamiento&lt;/li&gt;
+  &lt;li&gt;Unificar tareas similiares&lt;/li&gt;
+  &lt;li&gt;Distribución de procesamientos atrevez del tiempo&lt;/li&gt;
+  &lt;li&gt;Minimizar recursos compartidos&lt;/li&gt;
+  &lt;li&gt;Partición y paralelización&lt;/li&gt;
+  &lt;li&gt;Uso de procesos asincronos&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;problemas&quot;&gt;Problemas&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Gran cantidad de objetivos de rendimiento y escabilidad&lt;/li&gt;
+  &lt;li&gt;Modelos no realisticos&lt;/li&gt;
+  &lt;li&gt;Uso de medidas simples para casos complejos&lt;/li&gt;
+  &lt;li&gt;Conflictos en concurrencia&lt;/li&gt;
+  &lt;li&gt;Poco recuros de almacenamiento&lt;/li&gt;
+  &lt;li&gt;No tomar en cuenta la red&lt;/li&gt;
+  &lt;li&gt;Diferencias en invoación de procesos.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bibliografía&quot;&gt;Bibliografía&lt;/h3&gt;
+&lt;p&gt;SOFTWARE SYSTEMS ARCHITECTURE
+Working with Stakeholders Using ViewPoints and Perspectives
+Nick Rozanski, Eoin Woods&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Seguridad - perspectiva de seguridad</title>

@@ -13,6 +13,27 @@
 "items": [
     
         {
+            "id": "http://localhost:4000/2020/10/10/perspective-2",
+            "title": "Perspectiva - Rendimiento y escabilidad",
+            "summary": null,
+            "content_text": "CualidadesLa habilidad de un sistema en predecir y ejecutar operaciones que se encuentre en el marco establecido y el manejo en el crecimiento de las operaciones.Aplicabilidad  Sistema complejo, requerimientos ambiguos  Arquitecturas con elementos de rendimiento desconocidos.  Expansiones futuras significativas.Preocupaciones  Tiempo de respuestas  Requerimientos de recursos de hardware  Comportamientos de picos de carga  PrediccionesActividades  Capturar requerimientos de rendimiento  Creación y análisis de modelos de rendimiento  Realización de pruebas prácticas  Asistencia en la toma requerimiento y creación de la arquitectura.Estragegias  Optimización de procesos repetitivos  Reducción de variación en la replicación  Priorizar procesamiento  Unificar tareas similiares  Distribución de procesamientos atrevez del tiempo  Minimizar recursos compartidos  Partición y paralelización  Uso de procesos asincronosProblemas  Gran cantidad de objetivos de rendimiento y escabilidad  Modelos no realisticos  Uso de medidas simples para casos complejos  Conflictos en concurrencia  Poco recuros de almacenamiento  No tomar en cuenta la red  Diferencias en invoación de procesos.BibliografíaSOFTWARE SYSTEMS ARCHITECTUREWorking with Stakeholders Using ViewPoints and PerspectivesNick Rozanski, Eoin Woods",
+            "content_html": "<h3 id=\"cualidades\">Cualidades</h3><p>La habilidad de un sistema en predecir y ejecutar operaciones que se encuentre en el marco establecido y el manejo en el crecimiento de las operaciones.</p><h3 id=\"aplicabilidad\">Aplicabilidad</h3><ul>  <li>Sistema complejo, requerimientos ambiguos</li>  <li>Arquitecturas con elementos de rendimiento desconocidos.</li>  <li>Expansiones futuras significativas.</li></ul><h3 id=\"preocupaciones\">Preocupaciones</h3><ul>  <li>Tiempo de respuestas</li>  <li>Requerimientos de recursos de hardware</li>  <li>Comportamientos de picos de carga</li>  <li>Predicciones</li></ul><h3 id=\"actividades\">Actividades</h3><ul>  <li>Capturar requerimientos de rendimiento</li>  <li>Creación y análisis de modelos de rendimiento</li>  <li>Realización de pruebas prácticas</li>  <li>Asistencia en la toma requerimiento y creación de la arquitectura.</li></ul><h3 id=\"estragegias\">Estragegias</h3><ul>  <li>Optimización de procesos repetitivos</li>  <li>Reducción de variación en la replicación</li>  <li>Priorizar procesamiento</li>  <li>Unificar tareas similiares</li>  <li>Distribución de procesamientos atrevez del tiempo</li>  <li>Minimizar recursos compartidos</li>  <li>Partición y paralelización</li>  <li>Uso de procesos asincronos</li></ul><h3 id=\"problemas\">Problemas</h3><ul>  <li>Gran cantidad de objetivos de rendimiento y escabilidad</li>  <li>Modelos no realisticos</li>  <li>Uso de medidas simples para casos complejos</li>  <li>Conflictos en concurrencia</li>  <li>Poco recuros de almacenamiento</li>  <li>No tomar en cuenta la red</li>  <li>Diferencias en invoación de procesos.</li></ul><h3 id=\"bibliografía\">Bibliografía</h3><p>SOFTWARE SYSTEMS ARCHITECTUREWorking with Stakeholders Using ViewPoints and PerspectivesNick Rozanski, Eoin Woods</p>",
+            "url": "http://localhost:4000/2020/10/10/perspective-2",
+            
+            
+            
+            "tags": ["analisis","diseño","perspectivas"],
+            
+            "date_published": "2020-10-10T00:00:00-06:00",
+            "date_modified": "2020-10-10T00:00:00-06:00",
+            
+                "author": 
+                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                
+            
+        },
+    
+        {
             "id": "http://localhost:4000/2020/09/03/security-perspective",
             "title": "Seguridad - perspectiva de seguridad",
             "summary": null,
