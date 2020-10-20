@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "SOLID - cheatsheet",
+      "url"      : "/2020/10/20/solid-cheatsheet",
+      "category" : "",
+      "tags"     : "analisis, diseño, solid, principios",
+      "date"     : "2020-10-20 00:00:00 -0600",
+      "description" : ""
+
+    } ,
+  
+    {
+
       "title"    : "Perspectiva - Rendimiento y escabilidad",
       "url"      : "/2020/10/10/perspective-2",
       "category" : "",

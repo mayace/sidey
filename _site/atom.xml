@@ -4,13 +4,168 @@
  <title>Yo2020</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2020-10-10T16:11:02-06:00</updated>
+ <updated>2020-10-20T12:09:46-06:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>SOLID - cheatsheet</title>
+   <link href="http://localhost:4000/2020/10/20/solid-cheatsheet"/>
+   <updated>2020-10-20T00:00:00-06:00</updated>
+   <id>http://localhost:4000/2020/10/20/solid-cheatsheet</id>
+   <content type="html">&lt;h3 id=&quot;srp---single-responsability-principle&quot;&gt;SRP - Single responsability principle&lt;/h3&gt;
+
+&lt;p&gt;Responsable de cambiar un solo cosa.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Mal&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;class NOSRP{
+    Sring readFile();
+    void saveUserData();
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Bueno.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;class File{
+    String read();
+}
+class Users{
+    void save(UserData user);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;ocp---open-closed-principle&quot;&gt;OCP - Open closed principle&lt;/h3&gt;
+
+&lt;p&gt;Extensible pero no para modificaciones.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Mal&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-c#&quot;&gt;double areaTotal(Shape[] shapes){
+    double total = 0;
+    foreach(Shape item in shapes){
+        if(item is Rectangle){
+            total +=  ...;
+        } else if (item is Circle) {
+            total +=  ...;
+        } else {
+            total += ...;
+        }
+    }
+    return total;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Bueno.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-c#&quot;&gt;interface Shape{
+    double getArea();
+}
+
+double areaTotal(Shape[] shapes){
+    double total = 0;
+    foreach(Shape item in shapes){
+        total += item.getArea();
+    }
+    return total;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;lsp---liskov-substitucion-principle&quot;&gt;LSP - Liskov substitucion principle&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Bueno.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-C#&quot;&gt;interface Vehicule{
+    double getSpeed();
+    double getCubicCapacity();
+}
+
+void main(){
+    Vehicule car = new Car();
+    Vehicule bus = new Car();
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;isp---interface-segregation-principle&quot;&gt;ISP - Interface segregation principle&lt;/h3&gt;
+&lt;p&gt;Dependecia entre clases debe ser la mas pequeña posible&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Mal&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-c#&quot;&gt;interface Animal{
+    feed();
+    groom(); //limpiar
+} 
+
+class Dog : Animal{
+    feed();
+    groom();
+}
+class Tiger: Animal{
+    feed();
+    groom(); // mala implementación
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Bueno.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-c#&quot;&gt;interface Animal{
+    feed();
+}
+class Pet : Animal {
+    groom();
+}
+class Dog : Pet{}
+class Tiles: Animal{}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;dip---dependency-inversion-principle&quot;&gt;DIP - Dependency inversion principle&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Mal.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-c#&quot;&gt;void test(){
+    var book = new PdfBook();
+    var reader = new PdfReader(PdfBook);
+}
+
+class PdfBook{}
+class PdfReader{
+    PdfReader(PdfBook book);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Bueno.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-c#&quot;&gt;void test(){
+    var book = new pdfBook();
+    var reader = new EBookReaer(book);
+}
+
+interface EBook{
+    String read();
+}
+
+class EBookReader{
+    EBookReader(EBook book);
+}
+
+class PdfBook : EBook{}
+class MobiBook : EBook{}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;resources&quot;&gt;Resources&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://dotnetfreakblog.wordpress.com/2013/10/07/single-responsibility-principle/&lt;/li&gt;
+  &lt;li&gt;https://www.youtube.com/watch?v=yxf2spbpTSw&lt;/li&gt;
+  &lt;li&gt;https://www.javabrahman.com/programming-principles/liskov-substitution-principal-java-example/&lt;/li&gt;
+  &lt;li&gt;https://code.tutsplus.com/tutorials/solid-part-4-the-dependency-inversion-principle–net-36872&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Perspectiva - Rendimiento y escabilidad</title>
